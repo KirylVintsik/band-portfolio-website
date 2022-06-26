@@ -1,0 +1,65 @@
+.drawer .MuiPaper-root {
+  width: 50vw;
+  background-image: url("../../../public/band_logo.jpeg") !important;
+  background-size: 100%;
+}
+.MuiPaper-root .drawer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 1.5em 5em;
+}
+button.contact-us-button {
+  position: fixed;
+  right: 3em;
+  bottom: 2em;
+  background-color: #ff0000;
+}
+button.contact-us-button:hover {
+  background-color: #ff0000d5;
+}
+button.submit-button {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+button.submit-button:hover {
+  background-color: #ff0000d5;
+}
+.close-button {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.close-button .MuiSvgIcon-root {
+  color: #ffffff;
+}
+
+.drawer-title {
+  font-size: 2em;
+  text-align: center;
+  color: #ffffff;
+}
+.MuiIconButton-label {
+  color: #ffffff;
+}
+.drawer-form .MuiRadio-colorSecondary.Mui-checked .MuiIconButton-label {
+  color: #ff0000;
+}
+.drawer-form .quiz {
+  padding: 2em 0;
+  color: #ffffff;
+}
+.quiz .MuiFormLabel-root,
+.quiz .MuiFormLabel-root.Mui-focused {
+  color: #ffffff;
+}
+
+.form-field .MuiInputBase-root {
+  background-color: #ffffff;
+}
+.form-field label.Mui-focused {
+  color: #babcbe;
+}
+.form-field .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #babcbe;
+}

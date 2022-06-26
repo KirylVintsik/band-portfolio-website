@@ -1,0 +1,22 @@
+.tracklist-container {
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    display: grid;
+}
+.tracklist-container .track-row {
+    display: grid;
+    grid-template-columns: 32px 4fr 2fr 1fr;
+    align-items: center;
+    padding: 8px 12px;
+}
+.tracklist-container .track-row:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.tracklist-container .track-row .track-name{
+    padding: 0 20px;
+}
+.tracklist-container .album-icon {
+    width: 32px;
+    height: 32px;
+}

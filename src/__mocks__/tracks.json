@@ -1,0 +1,39 @@
+{
+  "tracks": [
+    {
+      "id": 1,
+      "name": "Californication",
+      "album": "Californication (Deluxe Edition)",
+      "year": 1999,
+      "albumIconUrl": "https://a.allegroimg.com/s128/1117aa/7600fd5e4a64ae069f7e50c0e7e0/Red-Hot-Chili-Peppers-Californication-CD-Album"
+    },
+    {
+      "id": 2,
+      "name": "Otherside",
+      "album": "Californication (Deluxe Edition)",
+      "year": 1999,
+      "albumIconUrl": "https://a.allegroimg.com/s128/1117aa/7600fd5e4a64ae069f7e50c0e7e0/Red-Hot-Chili-Peppers-Californication-CD-Album"
+    },
+     {
+      "id": 3,
+      "name": "Dark Necessities",
+      "album": "The Getaway",
+      "year": 2016,
+      "albumIconUrl": "https://1.allegroimg.com/s128/00486a/e313a5414b04a5fe036fb522bd91/Red-Hot-Chili-Peppers-The-Getaway-CD"
+    },
+    {
+      "id": 4,
+      "name": "Snow (Hey Oh)",
+      "album": "Stadium Arcadium",
+      "year": 2006,
+      "albumIconUrl": "https://a.allegroimg.com/s128/11ac0f/222c39d940fbb2f41e56d4046a6e/RED-HOT-CHILI-PEPPERS-Stadium-Arcadium-2CD"
+    },
+    {
+      "id": 5,
+      "name": "Can't Stop",
+      "album": "By The Way (Deluxe Edition)",
+      "year": 1999,
+      "albumIconUrl": "https://a.allegroimg.com/s128/116cf3/297297244633be79cac29cc88bfc/Red-Hot-Chili-Peppers-By-The-Way-CD-Album"
+    }
+  ]
+}
