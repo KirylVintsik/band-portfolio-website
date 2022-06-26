@@ -61,62 +61,64 @@ function Contact({ onSubmit }) {
           </div>
         </div>
         <form className="drawer-form" onSubmit={handleSubmit}>
-          <FormControl required>
-            <TextField
-              className="form-field"
-              type="text"
-              label="Full Name"
-              name="name"
-              variant="outlined"
-              required
-            />
-          </FormControl>
-          <FormControl required>
-            <TextField
-              className="form-field"
-              type="text"
-              label="Email"
-              variant="outlined"
-              name="email"
-              required
-            />
-          </FormControl>
-          <FormControl required>
-            <TextField
-              className="form-field"
-              type="text"
-              label="Phone"
-              variant="outlined"
-              name="phone"
-              required
-            />
-          </FormControl>
-          <FormControl required>
-            <TextField
-              className="form-field"
-              type="text"
-              label="Your Message"
-              variant="outlined"
-              name="message"
-              multiline
-              minRows={7}
-              required
-            />
-          </FormControl>
-          <div className="quiz">
-            <FormControl component="fieldset">
-              <FormLabel component="legend">{question.name}</FormLabel>
-              <RadioGroup aria-label="gender" name="quiz">
-                {question.options.map((option, index) => (
-                  <FormControlLabel
-                    key={index}
-                    value={option}
-                    control={<Radio required />}
-                    label={question.options[index]}
-                  />
-                ))}
-              </RadioGroup>
+          <div className="flex-column">
+            <FormControl required>
+              <TextField
+                className="form-field"
+                type="text"
+                label="Full Name"
+                name="name"
+                variant="outlined"
+                required
+              />
             </FormControl>
+            <FormControl required>
+              <TextField
+                className="form-field"
+                type="text"
+                label="Email"
+                variant="outlined"
+                name="email"
+                required
+              />
+            </FormControl>
+            <FormControl required>
+              <TextField
+                className="form-field"
+                type="text"
+                label="Phone"
+                variant="outlined"
+                name="phone"
+                required
+              />
+            </FormControl>
+            <FormControl required>
+              <TextField
+                className="form-field"
+                type="text"
+                label="Your Message"
+                variant="outlined"
+                name="message"
+                multiline
+                minRows={7}
+                required
+              />
+            </FormControl>
+            <div className="quiz">
+              <FormControl component="fieldset">
+                <FormLabel component="legend">{question.name}</FormLabel>
+                <RadioGroup aria-label="gender" name="quiz">
+                  {question.options.map((option, index) => (
+                    <FormControlLabel
+                      key={index}
+                      value={option}
+                      control={<Radio required />}
+                      label={question.options[index]}
+                    />
+                  ))}
+                </RadioGroup>
+              </FormControl>
+            </div>
           </div>
           <Button className="submit-button" variant="contained" type="submit">
             Submit

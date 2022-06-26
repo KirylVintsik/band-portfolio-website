@@ -3,11 +3,17 @@
   background-image: url("../../../public/band_logo.jpeg") !important;
   background-size: 100%;
 }
-.MuiPaper-root .drawer-form {
+.flex-column {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+.MuiPaper-root .drawer-form {
+  display: flex;
+  flex-direction: column;
   padding: 1.5em 5em;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 button.contact-us-button {
   position: fixed;
